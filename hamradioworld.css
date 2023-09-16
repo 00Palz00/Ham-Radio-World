@@ -1,0 +1,110 @@
+/*CSS for my ham radio website*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+}
+h1 {
+    color: black;
+    font-size: medium;
+    text-align: center;
+}
+h2 {color: red;
+    font-size: small;
+    text-decoration: underline overline;
+    text-align: left;
+}
+h3{color: blue;
+    font-size: medium;
+    font-style: oblique;
+    text-decoration: solid underline rgb(255, 0, 0);
+
+}
+
+p {
+    font-style: normal;
+    font-size: normal;
+    font-weight: normal;
+    text-align: justify;
+    color: blue;
+}
+nav{
+    display: flex;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+    background-color: blue;
+    text-align: center;
+    height: 50px;
+
+}
+nav li {
+    display: inline;
+    margin: 20px;
+}
+nav a:hover {
+    color: white;
+}
+nav a {
+    color: rgb(251, 255, 0);
+    text-decoration-line: none;
+    text-shadow: 3px 3px 6px rgba(243, 15, 15, 0.993);
+ }
+table {
+    width: 900px;
+    background-color: aquamarine;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+th {
+    border-style: double;
+    color: blue;
+    border-width: 3px;
+    border-color: blueviolet;
+}
+td {
+    border-style:double;
+    border-color:blueviolet;
+    border-width: 3px;
+}
+tr {
+    align-items: center;
+}
+footer{
+background-color: blue;
+}
+footer a{
+    font-size: small;
+font-style: normal;
+font-weight: bold;
+color: yellow;
+text-align: center;
+text-size-adjust: 20%;
+}
+footer p{
+    font-size: small;
+font-style: normal;
+font-weight: bold;
+color: rgb(0, 255, 21);
+text-align: center;
+text-size-adjust: 20%;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+a{color: rgb(255, 0, 255);
+font-weight: bolder;}
+section a{
+    color: darkblue;
+}
+small a{color: blueviolet;}
